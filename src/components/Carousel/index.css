@@ -1,0 +1,46 @@
+/* NewsCarousel.css */
+
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: transparent;
+  }
+  
+  .card {
+    margin: auto; /* Adjust margin for space between cards */
+    height: 250px; /* Set the height of each card */
+    width: auto;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(250, 248, 248, 0.1);
+    display: inline; /* Ensure cards are displayed in a row */
+    vertical-align: top; /* Align cards to the top */
+    padding: 20px;
+
+  }
+  
+  .card img {
+    width: 100%;
+    height: 50%; /* Adjust height of the image */
+    object-fit:cover; /* Ensure the image covers the entire card */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-content {
+    padding: 20px; /* Adjust padding for content */
+  }
+  
+  .card-content h3 {
+    margin: 0;
+    font-size: 1rem;
+    color: #333333;
+  }
+  
+  .card-content p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666666;
+  }
+  

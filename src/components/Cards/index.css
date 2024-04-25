@@ -1,0 +1,34 @@
+/* CardRow.css */
+
+.card-row {
+  display: flex; /* Display cards in a row */
+  justify-content: space-evenly; /* Align cards with space between */
+  flex-wrap: nowrap; /* Allow cards to wrap to new row if needed */
+}
+
+.card {
+  margin: 5px; /* Adjust margin for space between cards */
+  height: 100px; /* Set the height of each card */
+  width: 100px;
+  background-color: blueviolet;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-content {
+  padding: 20px; /* Adjust padding for content */
+}
+
+.card-content h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: #333333;
+}
+
+.card-content p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #666666;
+}
